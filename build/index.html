@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/build/css/style.css" />
+    <script src="/build/js/script.js"></script>
+    <title>Vian apparel</title>
+  </head>
+  <body class="min-h-screen bg-black text-white">
+    <header class="sticky top-0 z-10 bg-teal-700 text-white">
+      <section
+        class="align-item-center mx-auto flex max-w-6xl justify-between p-5"
+      >
+        <h1 class="text-3xl font-medium">
+          <a href="#hero">👚Vian Apparel</a>
+        </h1>
+        <!-- hamburger menu -->
+        <div>
+          <button
+            id="hamburger-button"
+            class="relative h-8 w-8 cursor-pointer text-3xl focus:outline-none md:hidden"
+          >
+            <!-- &#9776; -->
+            <div
+              class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
+            ></div>
+          </button>
+        </div>
+        <nav class="hidden scroll-mt-20 space-x-8 md:block" arie-label="main">
+          <a href="#Design" class="text-xl hover:opacity-50">Our Design</a>
+          <a href="#Testimonial" class="text-xl hover:opacity-50"
+            >Testimonials</a
+          >
+          <a href="#Contact" class="text-xl hover:opacity-50">Contact</a>
+        </nav>
+      </section>
+      <section
+        id="mobile-menu"
+        class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-3xl"
+      >
+        <!-- button X which close the menu -->
+        <!-- <button class="text-8xl self-end px-6">&times;</button> -->
+        <nav
+          class="flex min-h-screen flex-col items-center py-8"
+          aria-label="mobile"
+        >
+          <a href="#hero" class="w-full py-6 text-center hover:opacity-90"
+            >Home</a
+          >
+          <a href="#Design" class="w-full py-6 text-center hover:opacity-90"
+            >Design</a
+          >
+          <a
+            href="#Testimonial"
+            class="w-full py-6 text-center hover:opacity-90"
+            >Testimonial</a
+          >
+          <a href="#Contact" class="w-full py-6 text-center hover:opacity-90"
+            >Contact Us</a
+          >
+          <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
+            >Legal</a
+          >
+        </nav>
+      </section>
+    </header>
+    <!-- main section -->
+    <main class="mx-auto max-w-6xl">
+      <section
+        id="hero"
+        class="widescreen:selection:min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col items-center justify-center gap-8 p-6 sm:scroll-mt-20 sm:flex-row"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="max-w-md text-center text-2xl font-bold text-white sm:text-left sm:text-5xl sm:text-white"
+          >
+            We give you
+            <span class="text-indigo-700 dark:text-indigo-300">
+              The beauty you deserve</span
+            >
+            and because your appearance is unique to us....
+          </h2>
+          <p
+            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-600 sm:text-left"
+          >
+            Our fashion house offfers you the appearance that is oustanding and
+            extremely perfect
+          </p>
+          <p
+            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-600 sm:text-left"
+          >
+            Think <span class="font-medium text-red-500">Vian Apparel</span>
+          </p>
+        </article>
+        <img class="w-1/2 rounded" src="./img/shine (2).jpg" alt="notch" />
+      </section>
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+      <!-- section two -->
+      <section
+        id="Design"
+        class="widescreen:selection:min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
+      >
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-300 dark:text-white sm:text-5xl"
+        >
+          Our Designs are top-notch
+        </h2>
+        <ul
+          class="mx-auto my-12 flex w-5/6 list-none flex-col items-center gap-8 sm:flex-row"
+        >
+          <li
+            class="dark:border-grey-100 flex w-2/3 flex-col items-center rounded-3xl border border-slate-200 px-2 py-6 shadow-xl dark:bg-black sm:w-5/6"
+          >
+            <img
+              class="mb-12 rounded-full"
+              src="./img/IMG-20220907-WA0016 (1).jpg"
+              alt="corset gown"
+            />
+            <h1
+              class="text-center text-3xl text-slate-300 dark:text-white sm:text-xl"
+            >
+              Ruched
+            </h1>
+            <p
+              class="text-1xl block text-center text-slate-400 dark:text-white sm:hidden"
+            >
+              #8,000
+            </p>
+            <p
+              class="block text-center text-3xl text-slate-300 dark:text-white sm:hidden"
+            >
+              Lovely outfit
+            </p>
+          </li>
+          <!-- second image -->
+          <li
+            class="dark:border-grey-100 flex w-2/3 flex-col items-center rounded-3xl border border-slate-200 px-2 py-6 shadow-xl dark:bg-black sm:w-5/6"
+          >
+            <img class="mb-12 rounded-full" src="./img/clik.jpg" alt="" />
+            <h1 class="text-center text-xl text-slate-300 dark:text-white">
+              Corset gown
+            </h1>
+            <p
+              class="text-1xl block text-center text-slate-400 dark:text-white sm:hidden"
+            >
+              #15,000
+            </p>
+            <p
+              class="block text-center text-3xl text-slate-300 dark:text-white sm:hidden"
+            >
+              keen fitted
+            </p>
+          </li>
+          <li
+            class="dark:border-grey-100 flex w-2/3 flex-col items-center rounded-3xl border border-slate-200 px-2 py-6 shadow-xl dark:bg-black sm:w-5/6"
+          >
+            <img class="mb-12 rounded-full" src="./img/spa.jpg" alt="" />
+            <h1 class="text-center text-3xl text-slate-300 dark:text-white">
+              Blaire
+            </h1>
+            <p
+              class="text-1xl block text-center text-slate-400 dark:text-white sm:hidden"
+            >
+              #10,000
+            </p>
+            <p
+              class="block text-center text-3xl text-slate-300 dark:text-white sm:hidden"
+            >
+            Outsatnding
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Testimonials sections -->
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+      <section
+        id="Testimonial"
+        class="widescreen:selection:min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
+      >
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-300 dark:text-white sm:text-5xl"
+        >
+          Testimonial
+        </h2>
+        <figure class="my-12 rounded-md border border-blue-700 px-2 pb-2">
+          <blockquote
+            class="pr-18 relative rounded-3xl py-12 pl-12 dark:bg-black"
+          >
+            <p
+              class="before:font-sarif before:tarnslate-x-2 after:font-sarif after:tarnslate-x-2 mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-y-2 before:transform before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:translate-y-2 after:transform after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-100"
+            >
+              Vian apparel gives you the best quality of design you deserves
+              because fashion is the armor to survive the reality of everyday
+              life.
+            </p>
+          </blockquote>
+          <figcaption class="mt-4 py-2 text-right text-xl italic sm:text-2xl">
+            &#8212; Miss Calista fajiro, United kingdom(UK)
+          </figcaption>
+        </figure>
+        <figure class="my-12 rounded-md border border-blue-700 px-2 pb-2">
+          <blockquote
+            class="pr-18 relative rounded-3xl py-12 pl-12 dark:bg-black"
+          >
+            <p
+              class="before:font-sarif before:tarnslate-x-2 after:font-sarif after:tarnslate-x-2 mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-y-2 before:transform before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:translate-y-2 after:transform after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-100"
+            >
+              Fashion is part of the daily air and it changes all the time, with
+              all the events. You can even see the approaching of a revolution
+              in clothes. You can see and feel everything in clothes vian
+              apparel fashion house we give you the light and uniqueness in
+              fashion world.
+            </p>
+          </blockquote>
+          <figcaption class="mt-4 py-2 text-right text-xl italic sm:text-2xl">
+            &#8212; Mrs Ada John, Nigeria,Lagos(NG)
+          </figcaption>
+        </figure>
+        <figure class="my-12 rounded-md border border-blue-700 px-2 pb-2">
+          <blockquote
+            class="pr-18 relative rounded-3xl py-12 pl-12 dark:bg-black"
+          >
+            <p
+              class="before:font-sarif before:tarnslate-x-2 after:font-sarif after:tarnslate-x-2 mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-y-2 before:transform before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:translate-y-2 after:transform after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-100"
+            >
+              I firmly believe that Vian apparel gives you the best quality of
+              design you deserves because fashion is the armor to survive the
+              reality of everyday life.
+            </p>
+          </blockquote>
+          <figcaption class="mt-4 py-2 text-right text-xl italic sm:text-2xl">
+            &#8212; Mrs Cecilia Karl, United State of America(US)
+          </figcaption>
+        </figure>
+      </section>
+
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+      <section
+        id="Contact"
+        class="widescreen:selection:min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6"
+      >
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-300 dark:text-white sm:text-5xl"
+        >
+          Contacts Us
+        </h2>
+        <form
+          action=""
+          class="items-left gap mx-auto flex max-w-4xl flex-col text-2xl sm:text-3xl"
+        >
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            required
+            minlength="3"
+            maxlength="60"
+            placeholder="Title"
+            class="w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+          />
+          <label for="message"></label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+            class="mt-5 w-full rounded-xl border border-solid border-slate-900 p-3 text-2xl text-black dark:border-none sm:text-3xl"
+          ></textarea>
+          <button
+            class="mt-4 w-48 rounded-xl border border-solid border-slate-900 bg-teal-700 p-3 text-white hover:bg-teal-600 active:bg-teal-500 dark:border-none"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer id="footer" class="bg-teal-700 text-xl text-white">
+      <section
+        class="mx-auto flex max-w-5xl flex-col p-4 sm:flex-row sm:justify-between"
+      >
+        <address>
+          <h2>Vian Apparel-fashion house limited.</h2>
+          22 lekki way<br />
+          Lagos, Nigeria 12345-4565<br />
+          Email:
+          <a href="mailto:uwaomaoinna20@gmail.com">Uwaomaobinna20@mail.com</a
+          ><br />
+          Phone: <a href="tel:+2347014996452">+2347014996452</a>
+        </address>
+        <nav class="gap-2 md:flex-col" aria-label="foooter">
+          <a href="#hero" class="p-4 hover:opacity-90">Our design</a><br />
+          <a href="#testimonial" class="p-4 hover:opacity-90">Testimonials</a
+          ><br />
+          <a href="#Contact" class="p-4 hover:opacity-90">Contact Us</a>
+        </nav>
+        <div class="flex flex-col sm:gap-2">
+          <p class="text-right">
+            Copyright &copy;Rankshow <span id="year">2023</span>
+          </p>
+          <p class="text-right"></p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
